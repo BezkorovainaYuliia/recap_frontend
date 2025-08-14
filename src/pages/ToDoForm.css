@@ -1,0 +1,25 @@
+form {
+    text-align: left;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.label-input {
+    padding: 10px 0;
+}

@@ -1,0 +1,30 @@
+.todo {
+    color: blue;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    box-sizing: border-box;
+}
+
+.todo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.open{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
